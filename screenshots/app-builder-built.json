@@ -1,0 +1,44 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Astrion",
+      "hasCanvas": true,
+      "bodyTextLen": 6854,
+      "bodyTextHash": "0fcf27371787e9c618b0ae3fee392c6184548d2947a88eaa8dbe853f955c20c2",
+      "bodyTextPrefix": "Astrion Atlas Planets Moons Nebulae Sky Classes Constellations S",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Astrion",
+      "hasCanvas": true,
+      "bodyTextLen": 6805,
+      "bodyTextHash": "e63c77eb21af59253e811172e8c1f34f6dee26930bcaf9fe5b008a9da3f3055e",
+      "bodyTextPrefix": "Astrion Atlas Planets Moons Nebulae Sky Classes Constellations S",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (5267 -> 6854 chars, hash mismatch)",
+    "mobile: body text changed (5230 -> 6805 chars, hash mismatch)"
+  ]
+}
