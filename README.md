@@ -2,6 +2,9 @@
 
 A stellar atlas of named stars, the planets that circle them, the moons of those planets, and the nebulae still making the next generation.
 
+**Live:** [astrion-zakaria.grok.me](https://astrion-zakaria.grok.me)  
+**Source:** [github.com/iamzakaria/astrion-space-explore](https://github.com/iamzakaria/astrion-space-explore)
+
 Distances in light-years. Orbits in astronomical units. Moons in kilometres.
 
 Crafted with curiosity by **Zakaria Shagor**.
